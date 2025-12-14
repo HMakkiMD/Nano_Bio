@@ -1,0 +1,67 @@
+; General simulation parameters
+title                    = Martini
+integrator               = md
+dt                       = 0.02 
+nsteps                   = 5521 
+nstcomm                  = 10
+
+; Output control
+nstxout                  = 5000
+nstvout                  = 0
+nstfout                  = 0
+nstlog                   = 0
+nstxtcout                = 0
+compressed-x-grps        = 
+
+; Neighbor searching and interactions
+cutoff-scheme            = Verlet
+nstlist                  = 20
+ns_type                  = grid
+pbc                      = xyz
+verlet-buffer-tolerance  = 0.005
+
+coulombtype              = reaction-field 
+rcoulomb                 = 1.1
+epsilon_r                = 15	
+epsilon_rf               = 0
+vdw_type                 = cutoff  
+vdw-modifier             = Potential-shift-verlet
+rvdw                     = 1.1
+
+; Temperature and pressure coupling
+tcoupl                   = v-rescale 
+tc-grps                  = membrane   nano   W   ION
+tau_t                    = 0.1       0.1    0.1   0.1
+ref_t                    = 310       310    310   310
+
+Pcoupl                   = C-rescale
+Pcoupltype               = isotropic
+tau_p                    = 12.0     
+compressibility          = 3e-4
+ref_p                    = 1.0  
+
+; Initial velocities
+gen_vel                  = no
+gen_temp                 = 310
+gen_seed                 = 473529
+
+; Constraints
+constraints              = none 
+constraint_algorithm     = Lincs
+
+; Pull code
+pull                     = yes
+pull_ncoords             = 1
+pull_ngroups             = 2
+pull_group1_name         = nano
+pull_group2_name         = membrane
+pull-group2-pbcatom      = 2582 
+pull-pbc-ref-prev-step-com = yes
+pull_coord1_type         = umbrella
+pull_coord1_geometry     = direction
+pull_coord1_vec          = 0 0 1
+pull_coord1_dim          = N N Y
+pull_coord1_groups       = 1 2
+pull_coord1_start        = yes
+pull_coord1_rate         = 0.1 ; 0.1 nm/ps = 100 nm/ns
+pull_coord1_k            = 5000

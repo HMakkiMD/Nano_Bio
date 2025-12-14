@@ -1,0 +1,15 @@
+; forcefield parameters
+
+#include "martini3.itp"
+#include "G1HHOH-CG.itp"
+#include "water.itp"
+
+[ system ]
+; Name
+G1HHOH in water
+
+[ molecules ]
+; Compound    #mols
+G1HHOH         250
+              
+W               163443

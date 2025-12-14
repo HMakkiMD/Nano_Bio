@@ -1,0 +1,17 @@
+; forcefield parameters
+
+#include "martini3_modified.itp"
+#include "DOPC.itp"
+#include "water.itp"
+#include "G1HFOH.itp"
+
+[ system ]
+; Name
+dopc
+
+[ molecules ]
+; Compound    #mols
+DOPC          3600
+G1HFOH  216
+W       155407
+W       207026

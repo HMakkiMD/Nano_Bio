@@ -1,0 +1,119 @@
+[ molecule ]
+G1FFO
+
+[ martini ]
+GA GB GC GD GE GF GG GH GI GJ GK GL GM GN GO GP GQ
+
+[ mapping ]
+charmm36 
+
+[ atoms ]
+1      O1   GA
+2      H1   GA
+3      C1   GA 
+4      H2   GA 
+5      H3   GA 
+6      C2   GA GA GB
+7      H4   GA GA GB
+8      O2   GA GA GB
+9      H5   GA GA GB
+10     C3   GB GB GA
+11     H6   GB GB GA
+12     H7   GB GB GA
+13     O3   GB 
+14     C4   GB GB GE
+15     H8   GB GB GE
+16     H9   GB GB GE
+17     O4   GC
+18    H10   GC
+19     C5   GC 
+20    H11   GC 
+21    H12   GC 
+22     C6   GC GC GD
+23    H13   GC GC GD
+24     O5   GC GC GD
+25    H14   GC GC GD
+26     C7   GD GD GC
+27    H15   GD GD GC
+28    H16   GD GD GC
+29     O6   GD 
+30     C8   GD GD GE
+31    H17   GD GD GE
+32    H18   GD GD GE
+33     C9   GE GE GB GD
+34    H19   GE GE GB GD
+35      N   GE GE GF
+36    H20   GE GE GF
+37    C10   GF GF GE
+38     O7   GF GF GE
+39    C11   GF 
+40    H21   GF 
+41    H22   GF 
+42     O8   GF GF GG
+43    C12   GG GG GF
+44    H23   GG GG GF
+45    H24   GG GG GF
+46    C13   GG
+47    H25   GG
+48     O9   GH GH GG
+49    C14   GH 
+50    O10   GH 
+51    C15   GH GH GI
+52    H26   GH GH GI
+53    H27   GH GH GI
+54    C16   GI GI GH
+55    H28   GI GI GH
+56    H29   GI GI GH
+57    C17   GI GI GJ
+58     F1   GI GI GJ
+59     F2   GI GI GJ
+60    C18   GJ GJ GI
+61     F3   GJ GJ GI
+62     F4   GJ GJ GI
+63    C19   GJ GJ GK
+64     F5   GJ GJ GK
+65     F6   GJ GJ GK
+66    C20   GK GK GJ
+67     F7   GK GK GJ
+68     F8   GK GK GJ
+69    C21   GK GK GL
+70     F9   GK GK GL
+71    F10   GK GK GL
+72    C22   GL GL GK
+73    F11   GL GL GK
+74    F12   GL GL GK
+75    F13   GL GL GK
+76    C23   GG GG GM
+77    H30   GG GG GM
+78    H31   GG GG GM
+79    O11   GM GM GG
+80    C24   GM 
+81    O12   GM
+82    C25   GM GM GN
+83    H32   GM GM GN
+84    H33   GM GM GN
+85    C26   GN GN GM
+86    H34   GN GN GM
+87    H35   GN GN GM
+88    C27   GN GN GO 
+89    F14   GN GN GO 
+90    F15   GN GN GO 
+91    C28   GO GO GN
+92    F16   GO GO GN
+93    F17   GO GO GN
+94    C29   GO GO GP
+95    F18   GO GO GP
+96    F19   GO GO GP
+97    C30   GP GP GO
+98    F20   GP GP GO
+99    F21   GP GP GO
+100   C31   GP GP GQ 
+101   F22   GP GP GQ
+102   F23   GP GP GQ
+103   C32   GQ GQ GP
+104   F24   GQ GQ GP
+105   F25   GQ GQ GP
+106   F26   GQ GQ GP
+
+
+ 

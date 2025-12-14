@@ -1,0 +1,14 @@
+; forcefield parameters
+
+#include "martini3_modified.itp"
+#include "G2HFOH.itp"
+#include "water.itp"
+
+[ system ]
+; Name
+G2HFOH
+
+[ molecules ]
+; Compound    #mols
+G2HFOH         155
+W               101440

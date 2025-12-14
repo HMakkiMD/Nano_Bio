@@ -1,0 +1,84 @@
+[ moleculetype ]
+; Name   nrexcl
+G1HFOH       1
+[ atoms ]
+;     nr  type   resnr  resid    beed  cgnr  charge    mass    total_charge
+      1   P3d      1    G1HFOH   Head    1     0.0      61
+      2  SN3r      1    G1HFOH   Head    2     0.0      44
+      3   P3d      1    G1HFOH   Head    3     0.0      61
+      4  SN3r      1    G1HFOH   Head    4     0.0      44
+      5   TN3      1    G1HFOH   link    5     0.0      28
+      6   N2a      1    G1HFOH   link    6     0.0      58
+      7   SC2      1    G1HFOH   Tail    7     0.0      41
+      8   N2a      1    G1HFOH   Tail    8     0.0      58
+      9   SC2      1    G1HFOH   Tail    9     0.0      42
+     10    C1      1    G1HFOH   Tail   10     0.0      57     
+     11   N2a      1    G1HFOH   Tail   11     0.0      58
+     12 SX4er      1    G1HFOH   Tail   14     0.0      64 
+     13  X4er      1    G1HFOH   Tail   15     0.0     100
+     14  X4er      1    G1HFOH   Tail   16     0.0     100      
+     15 SX4er      1    G1HFOH   Tail   17     0.0      69 
+
+ 
+    
+  
+ 
+
+; total charge of the molecule:  -0.000
+[ bonds ]
+;    ai   aj  funct     c0         c1
+     1     2     1     0.3200    6000
+     3     4     1     0.3200    6000
+     2     5     1     0.2600    26000
+     4     5     1     0.2600    26000
+     5     6     1     0.2850    80000
+     6     7     1     0.3300    60000
+     7     8     1     0.3500    30000
+     8     9     1     0.3200    29000
+     9     10    1     0.4350    50000
+     7     11    1     0.3500    30000
+     11    12    1     0.2600    90000
+     12    13    1     0.2580   110000
+     13    14    1     0.2550   170000
+     14    15    1     0.2350   175000 
+  
+   
+
+	 
+[ angles ]
+;    ai   aj    ak  funct     angle         fc
+     1     2     5     2       120         680
+     2     5     4     2        96         100
+     5     4     3     2       120         680
+     2     5     6     2       125         700
+     4     5     6     2       125         700
+     5     6     7     2       122         750
+     6     7     8     2       100         600
+     6     7     11    2       100         600
+     8     7     11    2       100         420
+     7     8     9     2       135         650
+     8     9     10    2       140        1200
+     7     11    12    2       122         650
+    11     12    13    2       114         900
+    12     13    14    2       170       45000 
+    13     14    15    2       164       20000
+
+
+    [ position_restraints ]
+; ai  funct  fcx    fcy    fcz
+   1    1    0   0   0   ; restrains to a point
+   2    1    0   0   0   ; restrains to a point
+   3    1    0   0   0   ; restrains to a point
+   4    1    0   0   0   ; restrains to a point
+   5    1    0   0   0   ; restrains to a point
+   6    1    0   0   0   ; restrains to a point
+   7    1    100   100   100   ; restrains to a point
+   8    1    0   0   0   ; restrains to a point
+   9    1    0   0   0   ; restrains to a point
+  10    1    0   0   0   ; restrains to a point
+  11    1    0   0   0   ; restrains to a point
+  12    1    0   0   0   ; restrains to a point
+  13    1    0   0   0   ; restrains to a point
+  14    1    0   0   0   ; restrains to a point
+  15    1    0   0   0   ; restrains to a point
+

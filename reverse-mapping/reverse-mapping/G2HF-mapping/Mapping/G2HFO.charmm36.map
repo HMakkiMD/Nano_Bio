@@ -1,0 +1,172 @@
+[ molecule ]
+G2HFO
+
+[ martini ]
+GA GB GC GD GE GF GG GH GI GJ GK GL GM GN GO GP GQ GR GS GT GU
+
+[ mapping ]
+charmm36 
+
+[ atoms ]
+  1     O1     GA
+  2     H1     GA
+  3     C1     GA 
+  4     H2     GA 
+  5     H3     GA 
+  6     C2     GA GA GB
+  7     H4     GA GA GB
+  8     O2     GA GA GB
+  9     H5     GA GA GB
+ 10     C3     GB GB GA
+ 11     H6     GB GB GA
+ 12     H7     GB GB GA
+ 13     O3     GB 
+ 14     C4     GB GB GE
+ 15     H8     GB GB GE
+ 16     H9     GB GB GE
+ 17     O4     GC
+ 18    H10     GC
+ 19     C5     GC
+ 20    H11     GC
+ 21    H12     GC
+ 22     C6     GC GC GD
+ 23    H13     GC GC GD
+ 24     O5     GC GC GD
+ 25    H14     GC GC GD
+ 26     C7     GD GD GC
+ 27    H15     GD GD GC
+ 28    H16     GD GD GC
+ 29     O6     GD 
+ 30     C8     GD GD GE
+ 31    H17     GD GD GE
+ 32    H18     GD GD GE
+ 33     C9     GE GE GB GD 
+ 34    H19     GE GE GB GD
+ 35     O7     GE
+ 36    C10     GE GE GK
+ 37    H20     GE GE GK
+ 38    H21     GE GE GK
+ 39     O8     GF
+ 40    H22     GF
+ 41    C11     GF
+ 42    H23     GF
+ 43    H24     GF
+ 44    C12     GF GF GG
+ 45    H25     GF GF GG
+ 46     O9     GF GF GG
+ 47    H26     GF GF GG
+ 48    C13     GG GG GF
+ 49    H27     GG GG GF
+ 50    H28     GG GG GF
+ 51    O10     GG 
+ 52    C14     GG GG GJ
+ 53    H29     GG GG GJ
+ 54    H30     GG GG GJ
+ 55    O11     GH
+ 56    H31     GH
+ 57    C15     GH
+ 58    H32     GH
+ 59    H33     GH
+ 60    C16     GH GH GI
+ 61    H34     GH GH GI
+ 62    O12     GH GH GI
+ 63    H35     GH GH GI
+ 64    C17     GI GI GH
+ 65    H36     GI GI GH
+ 66    H37     GI GI GH
+ 67    O13     GI 
+ 68    C18     GI GI GJ
+ 69    H38     GI GI GJ
+ 70    H39     GI GI GJ
+ 71    C19     GJ GJ GG GI 
+ 72    H40     GJ GJ GG GI
+ 73    O14     GJ
+ 74    C20     GJ GJ GK 
+ 75    H41     GJ GJ GK
+ 76    H42     GJ GJ GK
+ 77    C21     GK GK GE GJ 
+ 78    H43     GK GK GE GJ
+ 79      N     GK GK GL
+ 80    H44     GK GK GL
+ 81    C22     GL GL GK 
+ 82    O15     GL GL GK
+ 83    C23     GL
+ 84    H45     GL
+ 85    H46     GL
+ 86    O16     GL GL GM
+ 87    C24     GM GM GL 
+ 88    H47     GM GM GL
+ 89    H48     GM GM GL
+ 90    C25     GM
+ 91    H49     GM
+ 92    O17     GN GN GM 
+ 93    C26     GN 
+ 94    O18     GN
+ 95    C27     GN GN GO 
+ 96    H50     GN GN GO
+ 97    H51     GN GN GO
+ 98    C28     GO GO GN 
+ 99    H52     GO GO GN
+100    H53     GO GO GN
+101    C29     GO 
+102    H54     GO 
+103    H55     GO 
+104    C30     GO GO GP 
+105    H56     GO GO GP 
+106    H57     GO GO GP 
+107    C31     GP GP GO 
+108    H58     GP GP GO 
+109    H59     GP GP GO 
+110    C32     GP
+111    H60     GP
+112    H61     GP
+113    C33     GP
+114    H62     GP
+115    H63     GP
+116    C34     GP
+117    H64     GP
+118    H65     GP
+119    H66     GP
+120    C35     GM GM GQ 
+121    H67     GM GM GQ
+122    H68     GM GM GQ
+123    O19     GQ GQ GM 
+124    C36     GQ
+125    O20     GQ 
+126    C37     GQ GQ GR 
+127    H69     GQ GQ GR
+128    H70     GQ GQ GR
+129    C38     GR GR GQ
+130    H71     GR GR GQ
+131    H72     GR GR GQ
+132    C39     GR GR GS
+133    F14     GR GR GS
+134    F15     GR GR GS
+135    C40     GS GS GR
+136    F16     GS GS GR
+137    F17     GS GS GR
+138    C41     GS GS GT
+139    F18     GS GS GT
+140    F19     GS GS GT
+141    C42     GT GT GS
+142    F20     GT GT GS
+143    F21     GT GT GS
+144    C43     GT GT GU
+145    F22     GT GT GU
+146    F23     GT GT GU
+147    C44     GU GU GT
+148    F24     GU GU GT
+149    F25     GU GU GT
+150    F26     GU GU GT
+
+
+
+[ trans ]
+C34 C33 C32 C31
+H66 C33 C32 C31
+H65 C33 C32 C31
+H64 C42 C43 C44
+C32 C42 C43 C44
+F24 C42 C43 C44
+F25 C42 C43 C44
+F26 C42 C43 C44

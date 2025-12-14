@@ -1,0 +1,127 @@
+[ molecule ]
+G1HHO
+
+[ martini ]
+GA GB GC GD GE GF GG GH GI GJ GK GL GM 
+
+[ mapping ]
+charmm36 
+
+[ atoms ]
+1     O1    GA
+2     H1    GA
+3     C1    GA 
+4     H2    GA 
+5     H3    GA 
+6     C2    GA GA GB
+7     H4    GA GA GB
+8     O2    GA GA GB
+9     H5    GA GA GB
+10    C3    GB GB GA
+11    H6    GB GB GA
+12    H7    GB GB GA
+13    O3    GB 
+14    C4    GB GB GE
+15    H8    GB GB GE
+16    H9    GB GB GE
+17    O4    GC
+18    H10   GC
+19    C5    GC 
+20    H11   GC 
+21    H12   GC 
+22    C6    GC GC GD
+23    H13   GC GC GD
+24    O5    GC GC GD
+25    H14   GC GC GD
+26    C7    GD GD GC
+27    H15   GD GD GC
+28    H16   GD GD GC
+29    O6    GD 
+30    C8    GD GD GE
+31    H17   GD GD GE
+32    H18   GD GD GE
+33    C9    GE GE GB GD
+34    H19   GE GE GB GD
+35    N     GE GE GF
+36    H20   GE GE GF
+37    C10   GF GF GE
+38    O7    GF GF GE
+39    C11   GF 
+40    H21   GF 
+41    H22   GF 
+42    O8    GF GF GG
+43    C12   GG GG GF
+44    H23   GG GG GF
+45    H24   GG GG GF
+46    C13   GG
+47    H25   GG
+48    O9    GH GH GG
+49    C14   GH 
+50    O10   GH 
+51    C15   GH GH GI
+52    H26   GH GH GI
+53    H27   GH GH GI
+54    C16   GI GI GH
+55    H28   GI GI GH
+56    H29   GI GI GH
+57    C17   GI 
+58    H30   GI 
+59    H31   GI 
+60    C18   GI GI GJ
+61    H32   GI GI GJ
+62    H33   GI GI GJ
+63    C19   GJ GJ GI
+64    H34   GJ GJ GI
+65    H35   GJ GJ GI
+66    C20   GJ
+67    H36   GJ
+68    H37   GJ
+69    C21   GJ 
+70    H38   GJ 
+71    H39   GJ 
+72    C22   GJ
+73    H40   GJ
+74    H41   GJ
+75    H42   GJ
+76    C23   GG GG GK
+77    H43   GG GG GK
+78    H44   GG GG GK
+79    O11   GK GK GG
+80    C24   GK 
+81    O12   GK 
+82    C25   GK GK GL
+83    H45   GK GK GL
+84    H46   GK GK GL
+85    C26   GL GL  GK
+86    H47   GL GL  GK
+87    H48   GL GL  GK
+88    C27   GL 
+89    H49   GL 
+90    H50   GL 
+91    C28   GL GL GM
+92    H51   GL GL GM
+93    H52   GL GL GM
+94    C29   GM GM GL
+95    H53   GM GM GL
+96    H54   GM GM GL
+97    C30   GM
+98    H55   GM
+99    H56   GM
+100   C31   GM 
+101   H57   GM 
+102   H58   GM 
+103   C32   GM
+104   H59   GM
+105   H60   GM
+106   H61   GM
+
+
+[ trans ]
+C32 C31 C30 C29
+H59 C31 C30 C29
+H60 C31 C30 C29
+H61 C31 C30 C29
+C22 C21 C20 C19
+H40 C21 C20 C19
+H41 C21 C20 C19
+H42 C21 C20 C19 

@@ -1,0 +1,39 @@
+;title                    = Martini
+
+; TIMESTEP IN MARTINI 
+
+integrator               = steep
+dt                       = 0.02  
+nsteps                   = 2500000 ; 5000 ps = 50 ns
+nstcomm                  = 100
+
+
+nstxout                  = 0   ;save  every 5.0 ps
+nstvout                  = 0   ;save  every 5.0 ps
+nstfout                  = 0   ;save  every 5.0 ps
+nstlog                   = 500000 ;save  every 5.0 ps
+nstenergy                = 500000 ;save  every 5.0 ps
+nstxout-compressed       = 500000 ;save  every 5.0 ps
+compressed-x-precision   = 500000 ;save  every 5.0 ps
+compressed-x-grps        = 
+
+; NEIGHBOURLIST and MARTINI 
+
+cutoff-scheme            = Verlet
+nstlist                  = 20
+ns_type                  = grid
+pbc                      = xyz
+verlet-buffer-tolerance  = 0.005
+
+coulombtype              = reaction-field 
+rcoulomb                 = 1.1
+epsilon_r                = 15	; 2.5 (with polarizable water)
+epsilon_rf               = 0
+vdw_type                 = cutoff  
+vdw-modifier             = Potential-shift-verlet
+rvdw                     = 1.1
+
+; MARTINI and CONSTRAINTS 
+
+constraints              = none 
+constraint_algorithm     = Lincs

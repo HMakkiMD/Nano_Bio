@@ -1,0 +1,15 @@
+; forcefield parameters
+
+#include "./charmm.ff/forcefield.itp"
+#include "product_atomistic.itp"
+#include "spc.itp"
+
+
+[ system ]
+; Name
+G1HHO
+
+[ molecules ]
+; Compound    #mols
+G1HHO  250
+SOL       17839
