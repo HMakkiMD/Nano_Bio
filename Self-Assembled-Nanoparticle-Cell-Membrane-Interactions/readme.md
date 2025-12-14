@@ -1,3 +1,7 @@
+## Author
+
+Mahsa Nami
+
 ## Introduction
 
 This repository contains all input files, simulation workflows, and representative
