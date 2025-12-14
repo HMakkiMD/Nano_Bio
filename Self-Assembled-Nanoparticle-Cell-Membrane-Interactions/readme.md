@@ -99,9 +99,13 @@ Membrane Model Naming Convention:
 Due to file-naming constraints, membrane models are labeled as follows:
 
 Folder name	Corresponding model	Description
+
 cancer0		M*0			symmetric membrane, 0% CHOL
+
 cancer33	M*33			symmetric membrane, 33% CHOL
+
 normal0		M0			Asymmetric membrane, 0% CHOL
+
 normal33	M33			Asymmetric membrane, 33% CHOL
 
 These labels are used consistently throughout the repository.
