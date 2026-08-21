@@ -1,0 +1,53 @@
+[ moleculetype ]
+; Name   nrexcl
+ LEFL       1
+[ atoms ]
+;    nr type    resnr  resid   beed  cgnr  charge    mass    total_charge
+     1  TC3      1      LEFL   Drug   1      0.0      27
+     2  TN4a     1      LEFL   Drug   2      0.0      30
+     3  TC5      1      LEFL   Drug   3      0.0      25
+     4  SP4a     1      LEFL   Drug   4      0.0      43
+     5  TC5      1      LEFL   Drug   5      0.0      25
+     6  TC5      1      LEFL   Drug   6      0.0      26
+     7  TC5      1      LEFL   Drug   7      0.0      25
+     8  SX4er    1      LEFL   Drug   8      0.0      69
+
+ 
+
+; total charge of the molecule:  -0.000
+[ bonds ]
+;    ai   aj  funct   c0         c1
+     4    5     1    0.247     29600
+     4    3     1    0.249     24700
+     
+
+ [constraints]
+ ;   ai    aj  funct   c0      
+  7 8   1      0.237     1000000
+  1 3   1      0.354     1000000
+  1 2   1      0.293     1000000
+  7 6   1      0.300     1000000
+  7 5   1      0.222     1000000
+  5 6   1      0.301     1000000
+  2 3   1      0.193     1000000
+	 
+	 
+	 
+ [ angles ]
+;    ai   aj    ak  funct     angle         fc
+   ;  6     7    8      2     84.05   1439
+    ; 3     4    5      2     132.18    90
+    ; 4     5    6      2     86.36    258
+     ;2     3    4      2    124.11    511
+  8     7       6          1     84.05    1446
+  8     7       5          1     151.73   1050
+  5     4       3          1     137.05     81
+ [ dihedrals ]
+;    i     j       k    l       funct   phase       kd    pn
+   ;  1 2 3 4    2  0    50
+   ;  5 6 7 8    2  0    50
+	 
+ [ exclusions ]
+ 8 6
+ 8 5
+

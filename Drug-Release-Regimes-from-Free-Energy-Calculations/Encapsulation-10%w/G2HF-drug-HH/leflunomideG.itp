@@ -1,0 +1,43 @@
+[ moleculetype ]
+; Name   nrexcl
+LEFLG       1
+[ atoms ]
+;    nr type    resnr  resid   beed  cgnr  charge    mass    total_charge
+     1  TC3      1     LEFLG   Drug   1      0.0      27   
+     2  TN4a     1     LEFLG   Drug   2      0.0      30
+     3  TC3      1     LEFLG   Drug   3      0.0      25
+     4  SP4a     1     LEFLG   Drug   4      0.0      43
+     5  TC3      1     LEFLG   Drug   5      0.0      25
+     6  TC3      1     LEFLG   Drug   6      0.0      26
+     7  TC3      1     LEFLG   Drug   7      0.0      25
+     8  TC2      1     LEFLG   Drug   8      0.0      15
+
+ 
+
+; total charge of the molecule:  -0.000
+[ bonds ]
+;    ai   aj  funct   c0         c1
+     3    4     1    0.2349    65000 
+     4    5     1    0.2662    66000 
+     7    8     1    0.2319    78000 
+
+ [constraints]
+ ;   ai    aj  funct   c0      
+     1     2     1    0.2943
+     2     3     1    0.1946
+     1     3     1    0.3553
+     5     6     1    0.2957  
+     5     7     1    0.2186 
+     6     7     1    0.2958 
+	 
+ [ angles ]
+;    ai   aj    ak  funct     angle         fc
+     1     2     3     2     90.9703       2500 
+     1     3     4     2     74.2690       1150
+     2     3     4     2     129.1869      1500 
+     3     4     5     2     115.5239      550 
+     4     5     6     2     77.4628       2600 
+     4     5     7     2     145.1353      5300 
+     6     5     7     2     68.2299       6400 
+     6     7     8     2     83.3323       1500 
+     5     7     8     2     150.8649      5500 

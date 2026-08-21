@@ -1,0 +1,15 @@
+; forcefield parameters
+
+#include "martini3_modified.itp"
+#include "G1HFOH.itp"
+#include "water.itp"
+#include "leflunomideG.itp"
+
+[ system ]
+; Name
+G1HFOH
+
+[ molecules ]
+; Compound    #mols
+G1HFOH         216
+LEFLG           89

@@ -1,0 +1,16 @@
+; forcefield parameters
+
+#include "martini3.itp"
+#include "G1FFOH-CG.itp"
+#include "leflunomide.itp"
+#include "water.itp"
+
+[ system ]
+; Name
+G1FFOH in water
+
+[ molecules ]
+; Compound    #mols
+G1FFOH       191
+LEFL         79
+

@@ -1,0 +1,16 @@
+; forcefield parameters
+
+#include "martini3.itp"
+#include "G2FFOH-CG.itp"
+#include "leflunomide.itp"
+#include "water.itp"
+
+[ system ]
+; Name
+G2FFOH-Drug
+
+[ molecules ]
+; Compound    #mols
+G2FFOH     141  
+LEFL       74   
+
